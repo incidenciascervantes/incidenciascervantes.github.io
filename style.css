@@ -2,7 +2,9 @@ body{
 	background-color: lightyellow;
 	}
 h1{
-	text-align: center}
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;}
 #div1{
 	background-color: lightblue;
 	margin-right: 25%;
