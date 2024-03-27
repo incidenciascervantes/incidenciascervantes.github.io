@@ -11,8 +11,20 @@
 </div>
 <div id="div2">
 <form action="https://formsubmit.co/incidenciascervantes@outlook.es" method="POST">
+<div id="select">
+<br>
+<label for="tipo">Seleccione el tipo de incidencia</label>
+<br>
+<select name="tipo" id="tipo" required>
+        <option>Incidencia TIC</option>
+        <option>Mantenimiento</option>
+        <option>Otro...</option>
+	</select>
+	<br><br>
+	</div>
+	<br>
 <label for="incidencia">Describa la incidencia:</label><br>
-  <input type="text" id="incidencia" name="name" required=""><br>
+  <input type="text" id="incidencia" name="incidencia" required=""><br>
   <br>
   <label for="aula">Aula:</label><br>
   <input type="text" id="Aula" name="aula" required="">
